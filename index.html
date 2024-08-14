@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Web App</title>
+    <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+</head>
+<body>
+    <div id ="login" class = "login-container">
+        <div id= "mainEmail">
+          <h1>Sign In</h1>
+          <input id = "email" type = "text" placeholder = "Email" required></input>
+          <input id = "password" type = "password" placeholder = "Password" required></input>
+          <button id = "submit">Submit</button>
+          <p><span>or</span></p>
+            <button id="facebook">Facebook</button>
+            <button id="google">Google</button>
+            <button id="signOut" style="display:none">Sign Out</button>
+        </div>
+      </div>
+    <div id="app" style="display:none;">
+        <div id="map"></div>
+        <div id="address"></div>
+    </div>
+    
+    <!-- Google Maps API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="index.js"></script>
+</body>
+</html>
