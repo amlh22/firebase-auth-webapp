@@ -12,12 +12,12 @@ import {
  } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmcBf_XWrIkfGDkJrwllL6CupB5vhHJ3A",
+  apiKey: "YOURKEYHERE",
   authDomain: "mobile-web-app-demo.firebaseapp.com",
   projectId: "mobile-web-app-demo",
   storageBucket: "mobile-web-app-demo.appspot.com",
   messagingSenderId: "950086163983",
-  appId: "1:950086163983:web:05d873ddab6a0f92b10d7a"
+  appId: "YOURIDHERE"
 };
 
 // Initialize Firebase
